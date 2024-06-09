@@ -1,3 +1,6 @@
 {
-  "item.hilmstore.sapphire": "Sapphire"
+  "item.hilmstore.sapphire": "Sapphire",
+  "item.hilmstore.raw_sapphire": "Raw Sapphire",
+
+  "creativetab.hilmstore_tab": "Hilmstore"
 }

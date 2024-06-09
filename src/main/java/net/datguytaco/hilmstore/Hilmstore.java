@@ -1,6 +1,7 @@
 package net.datguytaco.hilmstore;
 
 import com.mojang.logging.LogUtils;
+import net.datguytaco.hilmstore.item.ModCreativeModeTabs;
 import net.datguytaco.hilmstore.item.ModItems;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.CreativeModeTabs;
@@ -31,6 +32,8 @@ public class Hilmstore
     {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
+        ModCreativeModeTabs.register(modEventBus);
+
         ModItems.register(modEventBus);
 
         // Register the commonSetup method for modloading
@@ -55,6 +58,7 @@ public class Hilmstore
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
         if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
             event.accept(ModItems.SAPPHIRE);
+            event.accept(ModItems.RAW_SAPPHIRE);
         }
     }
 
