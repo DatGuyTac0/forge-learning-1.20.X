@@ -1,6 +1,7 @@
 package net.datguytaco.hilmstore;
 
 import com.mojang.logging.LogUtils;
+import net.datguytaco.hilmstore.block.ModBlocks;
 import net.datguytaco.hilmstore.item.ModCreativeModeTabs;
 import net.datguytaco.hilmstore.item.ModItems;
 import net.minecraft.world.item.CreativeModeTab;
@@ -35,6 +36,7 @@ public class Hilmstore
         ModCreativeModeTabs.register(modEventBus);
 
         ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
 
         // Register the commonSetup method for modloading
         modEventBus.addListener(this::commonSetup);

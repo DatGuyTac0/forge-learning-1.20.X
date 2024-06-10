@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "hilmstore:block/sapphire_block"
+    }
+  }
+}

@@ -2,5 +2,8 @@
   "item.hilmstore.sapphire": "Sapphire",
   "item.hilmstore.raw_sapphire": "Raw Sapphire",
 
+  "block.hilmstore.sapphire_block": "Sapphire Block",
+  "block.hilmstore.raw_sapphire_block": "Raw Sapphire Block",
+
   "creativetab.hilmstore_tab": "Hilmstore"
 }
