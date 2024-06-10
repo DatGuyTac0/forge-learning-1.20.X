@@ -2,8 +2,10 @@
   "item.hilmstore.sapphire": "Sapphire",
   "item.hilmstore.raw_sapphire": "Raw Sapphire",
 
-  "block.hilmstore.sapphire_block": "Sapphire Block",
-  "block.hilmstore.raw_sapphire_block": "Raw Sapphire Block",
+  "block.hilmstore.sapphire_block": "Block of Sapphire",
+  "block.hilmstore.raw_sapphire_block": "Block of Raw Sapphire",
+  "block.hilmstore.green_bean_block": "Block of Green Beans",
+  "block.hilmstore.cooked_bean_block": "Block of Cooked Beans",
 
   "creativetab.hilmstore_tab": "Hilmstore"
 }
