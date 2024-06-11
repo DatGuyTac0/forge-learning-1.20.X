@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "SSS",
+    "SSS",
+    "SSS"
+  ],
+  "key": {
+    "S": {
+      "item": "hilmstore:raw_sapphire"
+    }
+  },
+  "result": {
+    "item": "hilmstore:raw_sapphire_block"
+  }
+}

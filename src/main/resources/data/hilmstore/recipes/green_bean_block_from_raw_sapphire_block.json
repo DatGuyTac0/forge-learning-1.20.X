@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "SSS",
+    "SGS",
+    "SSS"
+  ],
+  "key": {
+    "S": {
+      "item": "hilmstore:raw_sapphire_block"
+    },
+    "G": {
+      "item": "minecraft:green_dye"
+    }
+  },
+  "result": {
+    "item": "hilmstore:green_bean_block",
+    "count": 8
+  }
+}
